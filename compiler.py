@@ -13,11 +13,8 @@ def clear_terminal():
 def show_help():
 	print ("Kernel compiler!")
 	print ("Coded by: Kevin Jerebica 2021 April 16th")
-	print ("\n--------------------------------------------")
-	print ("argument 1: path for the assembly bootloader")
-	print ("argument 2: path for the c kernel")
-	print ("argument 3: path for the linker script")
-	print ("argument 4: output file's name")
+	print ("--------------------------------------------")
+	print ("If the first argument is equal to 'compile-run' the program will compile the project and then right away start the os emulation for you")
 	print ("--------------------------------------------")
 
 def main():
@@ -25,7 +22,11 @@ def main():
 	kernel = "kernel.c"
 	linker = "linker.ld"
 	output = "system"
-
+	run_too = False
+	
+	if (len(sys.argv) == 2):
+		if (str(sys.argv[1]).strip() == "compile-run"):
+			run_too = True
 
 
 	# compile the bootloader - command
@@ -56,8 +57,9 @@ def main():
 	os.system(linking_command)
 
 #	clear_terminal()
-	print ("[!!] Starting the operating system")
-	os.system(start_system)
+	if (run_too):
+		print ("[!!] Starting the operating system")
+		os.system(start_system)
 
 #	clear_terminal()
 
