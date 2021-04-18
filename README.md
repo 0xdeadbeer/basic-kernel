@@ -16,8 +16,8 @@ Before jumping into the code, please read the full documentation page to get a f
 ```/compiler.py``` <- compiler program ( so far i don't have experience with making a Makefile )<br>
 ```/kernel.c``` <- the kernel written in c code<br>
 ```/bootloader.asm``` <- bootloader<br>
-```/linker.ld``` <- linker script
-```/output_files/system``` <- once compiled the code with the compiler, this is the operating system file
+```/linker.ld``` <- linker script<br>
+```/output_files/system``` <- once compiled the code with the compiler, this is the operating system file<br>
 
 ## How to compile the project
 It is as simple as just typing: <br>
