@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 import os
 import sys
-import time
-import random
 
 def clear_terminal():
 	if (os.name == "nt"):
