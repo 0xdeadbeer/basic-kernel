@@ -2,7 +2,7 @@
 <hr>
 This is my preset when making a new operating system from scratch. <br>
 Before jumping into the code, please read the full documentation page to get a full understanding of this preset project. <br>
-Thank you :D
+Thank you :D<br>
 # Functionality of the kernel
  - 2x Output functions: sysout_line, sysout<br>
  - Basic scrolling system - when all the lines are filled with information,<br>
