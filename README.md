@@ -1,5 +1,5 @@
 # Basic Kernel
-<img src="https://cdn.discordapp.com/attachments/708008758902784110/833254841806618674/unknown.png"><br>
+<img src="https://cdn.discordapp.com/attachments/708008758902784110/833254841806618674/unknown.png" style="border: 1px solid white; border-radius: 1em !important; "><br>
 This is my preset when making a new operating system from scratch. <br>
 Before jumping into the code, please read the full documentation page to get a full understanding of this preset project, thank you! <br>
 ## Functionality of the kernel
