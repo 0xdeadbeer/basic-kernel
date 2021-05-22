@@ -1,7 +1,7 @@
 # Basic Kernel
-<img src="https://cdn.discordapp.com/attachments/708008758902784110/833254841806618674/unknown.png"><br>
 This is my preset when making a new operating system from scratch. <br>
 Before jumping into the code, please read the full documentation page to get a full understanding of this preset project, thank you! <br>
+<img src="https://cdn.discordapp.com/attachments/708008758902784110/833254841806618674/unknown.png"><br>
 ## Functionality of the kernel
  - 2x Output functions: sysout_line, sysout<br>
  - Basic scrolling system - when all the lines are filled with information,<br>
