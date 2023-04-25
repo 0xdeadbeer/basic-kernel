@@ -29,7 +29,3 @@ It is as simple as just typing: <br>
 ## How to run the newly generated output kernel 
 1) Move into the ```/output_files``` directory with ```cd ./output_files``` <br>
 2) Run the qemu-system-i386 program on the outputted file ("system") ```qemu-system-i386 -kernel system``` 
-
-
-### Warning 
-If you have any questions or trouble in understanding the code you can shoot me a message on my instagram page or on my email, I should reply in 1-3 days.<br>
